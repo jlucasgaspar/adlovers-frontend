@@ -1,0 +1,73 @@
+.navbar {
+    border-bottom: solid 1 px rgba(200, 200, 200, 0.3);
+    box-shadow: 0px 2px 4px 0px rgba(200, 200, 200, 0.5);
+}
+
+#facebook, #google, #rel, #compare {
+    font-size: 18px;
+}
+
+#facebook:hover {
+    color: white;
+    background-color: rgba(29, 32, 175, 0.7);
+    transition: .3s ease-in-out;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    padding: 8px;
+}
+
+#google:hover {
+    color: white;
+    background-color: rgba(230, 11, 11, 0.7);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    transition: .3s ease-in-out;
+    padding: 8px;
+}
+
+#compare:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    transition: .3s ease-in-out;
+    padding: 8px;
+}
+
+#rel:hover {
+    color: white;
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    transition: .3s ease-in-out;
+}
+
+.dropdown-menu {
+    background-color: #efefef;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.4);
+}
+
+#navbarDropdown {
+    display: flex;
+    align-items: center;
+}
